@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Free Consultation - YipOnline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        /* Landing Page Specific Overrides */
+        .landing-hero {
+            padding: var(--spacing-xl) 0;
+            background: linear-gradient(135deg, #111 0%, #222 100%);
+            color: #fff;
+        }
+        .landing-form {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            color: var(--text-color);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .check-list li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.1rem;
+        }
+        .check-list .material-icons {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simplified Header -->
+    <header class="header" style="position: absolute; background: transparent; box-shadow: none;">
+        <div class="container header-container">
+            <a href="index.html" class="logo" style="color: #fff;">
+                Yip<span class="text-primary">Online</span>
+            </a>
+            <div class="header-actions">
+                <a href="tel:+1234567890" class="btn btn-outline" style="border-color: #fff; color: #fff;">Call Us: +1 (234) 567-890</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section with Form -->
+        <section class="landing-hero">
+            <div class="container" style="padding-top: 80px;">
+                <div class="grid features-grid" style="align-items: center;">
+                    <div class="hero-content">
+                        <h1 class="heading-xl" style="color: #fff;">Scale Your Business with Data-Driven Digital Strategies</h1>
+                        <p style="font-size: 1.25rem; margin-bottom: 2rem; color: #ccc;">
+                            Get a custom roadmap to double your leads and sales in 90 days.
+                        </p>
+                        <ul class="check-list">
+                            <li><span class="material-icons">check_circle</span> Free Website Audit</li>
+                            <li><span class="material-icons">check_circle</span> Competitor Analysis</li>
+                            <li><span class="material-icons">check_circle</span> Custom Growth Strategy</li>
+                        </ul>
+                    </div>
+
+                    <div class="landing-form-wrapper">
+                        <div class="landing-form">
+                            <h3 class="text-center" style="margin-bottom: 1.5rem;">Get Your Free Proposal</h3>
+                            <form id="landingForm">
+                                <div style="margin-bottom: 1rem;">
+                                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Full Name</label>
+                                    <input type="text" id="name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px;">
+                                </div>
+                                <div style="margin-bottom: 1rem;">
+                                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Work Email</label>
+                                    <input type="email" id="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px;">
+                                </div>
+                                <div style="margin-bottom: 1rem;">
+                                    <label for="website" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Website URL</label>
+                                    <input type="url" id="website" placeholder="https://" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px;">
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">Claim My Free Audit</button>
+                                <p style="font-size: 0.8rem; text-align: center; margin-top: 1rem; color: #888;">No credit card required. Limited availability.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="section-padding">
+            <div class="container text-center">
+                <h2 class="heading-md">Why Leading Brands Choose Us</h2>
+                <div class="grid services-grid" style="margin-top: 3rem;">
+                    <div class="service-card">
+                        <div class="icon-box" style="margin: 0 auto 1rem;">
+                            <span class="material-icons">speed</span>
+                        </div>
+                        <h3>Lightning Fast Results</h3>
+                        <p>We implement quick wins that start driving traffic immediately.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box" style="margin: 0 auto 1rem;">
+                            <span class="material-icons">psychology</span>
+                        </div>
+                        <h3>Expert Strategy</h3>
+                        <p>Our team consists of industry veterans with proven track records.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box" style="margin: 0 auto 1rem;">
+                            <span class="material-icons">paid</span>
+                        </div>
+                        <h3>ROI Focused</h3>
+                        <p>We don't just track clicks; we track revenue and growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof -->
+        <section class="section-padding bg-grey">
+            <div class="container">
+                <h2 class="heading-md text-center">Success Stories</h2>
+                <div class="grid features-grid" style="margin-top: 2rem;">
+                     <div class="testimonial-card">
+                         <p class="quote">"Our leads increased by 150% within the first month of working with YipOnline. The ROI has been incredible."</p>
+                         <div class="author">
+                             <div class="author-avatar"></div>
+                             <div class="author-info">
+                                 <h5>David Roberts</h5>
+                                 <span>Founder, SaaS Startup</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="testimonial-card">
+                         <p class="quote">"Finally an agency that understands our business goals. The team is proactive, transparent, and results-driven."</p>
+                         <div class="author">
+                             <div class="author-avatar"></div>
+                             <div class="author-info">
+                                 <h5>Jennifer Wu</h5>
+                                 <span>Marketing VP, RetailCo</span>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Simplified Footer -->
+    <footer class="footer" style="padding-top: 2rem;">
+        <div class="container text-center">
+            <p>&copy; 2023 YipOnline. All rights reserved.</p>
+            <div style="margin-top: 1rem;">
+                <a href="#" style="margin: 0 10px; color: #888;">Privacy Policy</a>
+                <a href="#" style="margin: 0 10px; color: #888;">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
